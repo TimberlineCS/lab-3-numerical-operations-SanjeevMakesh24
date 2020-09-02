@@ -15,11 +15,11 @@ int i2 = 18;
 
 |  problem | predicted answer  |
 |---|---|
-| 57.2 * (i1 / i2) + 1  |   |
-| 57.2 * ((double)i1 / i2) + 1  |   |
-| 15 – i1 * (d1 * 3) + 4  |  |
-| 15 – i1 * ((int)d1 * 3) + 4  |  |
-| 15 – i1 * (int)(d1 * 3) + 4  |  |
+| 57.2 * (i1 / i2) + 1  | 39  |
+| 57.2 * ((double)i1 / i2) + 1  | 39.133  |
+| 15 – i1 * (d1 * 3) + 4  | -1345.39 |
+| 15 – i1 * ((int)d1 * 3) + 4  | -1313 |
+| 15 – i1 * (int)(d1 * 3) + 4  |-1337 |
 
 - [ ] Print the result to each of the above problems to the console.  Do they match your prediction?
 
